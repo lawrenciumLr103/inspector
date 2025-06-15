@@ -1,0 +1,70 @@
+{
+  "component": {
+    "name": "[COMPONENT_NAME]",
+    "type": "[COMPONENT_TYPE]",
+    "status": "[STATUS]",
+    "hierarchy_level": "[LEVEL]",
+    "parent_system": "[PARENT_SYSTEM]",
+    "last_updated": "[DATE]"
+  },
+  "capabilities": {
+    "primary_functions": [
+      "[function_1]",
+      "[function_2]",
+      "[function_3]"
+    ],
+    "tools_available": [
+      "[tool_1]",
+      "[tool_2]"
+    ],
+    "integrations": [
+      "[integration_1]",
+      "[integration_2]"
+    ]
+  },
+  "configuration": {
+    "key_files": [
+      "[file_1]",
+      "[file_2]"
+    ],
+    "dependencies": [
+      "[dependency_1]",
+      "[dependency_2]"
+    ]
+  },
+  "security": {
+    "credential_requirements": "[DESCRIPTION]",
+    "access_controls": "[DESCRIPTION]",
+    "audit_logging": true
+  },
+  "development": {
+    "testing_approach": "[DESCRIPTION]",
+    "documentation_standard": "CLAUDE.md in .claude folder",
+    "update_requirements": "[DESCRIPTION]"
+  },
+  "hierarchy_context": {
+    "inherits_from": [
+      "[parent_level_1]",
+      "[parent_level_2]"
+    ],
+    "provides_to": [
+      "[child_component_1]",
+      "[child_component_2]"
+    ]
+  },
+  "operational_status": {
+    "current_phase": "[PHASE]",
+    "last_health_check": "[DATE]",
+    "key_metrics": {
+      "metric_1": "[VALUE]",
+      "metric_2": "[VALUE]"
+    }
+  },
+  "metadata": {
+    "created_by": "[CREATOR]",
+    "creation_date": "[DATE]",
+    "version": "1.0.0",
+    "component_id": "[UNIQUE_ID]",
+    "template_used": "basic"
+  }
+}
